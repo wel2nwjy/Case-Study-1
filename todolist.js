@@ -78,8 +78,10 @@ function cleardata(){
 }
 
 function closeWindow(){
-    window.open("index.html","_blank");
-    window.close();
+    // window.close();
+    // window.open("index.html","_blank"); 
+
+    window.location = 'index.html'
 }
 
 let ncount=0;
